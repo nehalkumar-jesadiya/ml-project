@@ -1,4 +1,5 @@
-import sys, logging, logger
+import sys
+from src.logger import logging
 
 # This Function will return custom error message. Which will include filename, linenumber and error message.
 def error_message_detail(error, error_detail:sys):
